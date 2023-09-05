@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { MdContentPaste } from "react-icons/md";
 
 function App() {
-  const [color, setColor] = useState("#FFFFFF");
+  const [color, setColor] = useState("#CCCCCC");
 
   const handleGenerate = () => {
     const colors = [
